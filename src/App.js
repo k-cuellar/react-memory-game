@@ -84,7 +84,7 @@ class App extends Component {
             <p className="lead">Click on one of the characters to earn a point. Don't click on the same character twice or you will lose!</p>
           </div>
         </div>
-        <div className="container">
+        <div className="container mainBody">
           <div className="form-row">
             {this.state.characters.map(friend => (
             <PictureCard
